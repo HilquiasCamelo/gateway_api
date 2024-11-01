@@ -1,4 +1,5 @@
-package com.hilquiascamelo.gateway_api.model;
+package com.hilquiascamelo.gateway_api.model.request;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class JwtAuthenticationResponse {
-    private String token;
+public class SigninRequest {
+    private String username;
+    private String password;
 }
