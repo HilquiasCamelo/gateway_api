@@ -1,4 +1,4 @@
-package com.hilquiascamelo.gateway_api.model;
+package com.hilquiascamelo.gateway_api.model.request;
 
 
 import lombok.AllArgsConstructor;
